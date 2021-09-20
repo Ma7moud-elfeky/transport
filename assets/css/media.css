@@ -1,0 +1,136 @@
+/*================================Satrt the large screens=========================*/
+@media (min-width:1201px ) and (max-width: 1440px)
+{
+   
+}
+@media (min-width:1025px) and (max-width:1200px)
+{
+   
+}
+/*this is property for an search button only*/
+@media(max-width: 1999px)and (min-width: 768px)
+{
+ 
+}
+/*==============================Start the screen of tablet=========================*/
+@media (min-width: 993px) and (max-width: 1024px)
+{
+ 
+}
+@media (min-width: 769px) and (max-width: 992px)
+{
+    
+}
+@media (max-width: 1024px) and (min-width: 768px)
+{
+    footer .information .head{
+        width: 70% !important;
+    }
+    footer .transport-office .head{
+        width: 90% !important;
+    }
+
+}
+@media (max-width: 768px){
+    footer .conent{
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .choose-us .title{
+        font-size: 30px;
+    }
+      footer .about-us .head{
+          width: 20% !important;
+      }
+      footer .information .head{
+          width: 30% !important;
+      }
+      footer .transport-office .head{
+        width: 40% !important;
+    }
+    footer .information .list{
+        display: block;
+        padding-top: 0px;
+      }
+    footer .information .list ul li{
+        font-size: 15px;
+        padding:0;
+      }
+    footer .information{
+        margin: 100px 0;
+    }
+    .our-services .container .icon{
+        width: 50%;
+    }
+    .our-services .container .icon i{
+        position: relative;
+        font-size: 30px;
+        left: -10px;
+    }
+}
+@media (max-width: 425px) {
+    
+    .request .container .heading{
+        position: relative;
+        left: 0 !important;
+        float: left;
+    }
+    .request::after{
+        clip-path: polygon(0% 0, 100% 0, 100% 100%, 0% 100%);
+    }
+    .request .container form{
+        left: 0;
+    }
+    
+    footer .copy-right{
+        flex-direction: column !important;
+    }
+    footer .information .head{
+        width: 60% !important;
+    }
+    footer .about-us .head{
+        width: 30% !important;
+    }
+    footer .transport-office .head{
+        width: 70% !important;
+    }
+    footer::after{
+        bottom: 100px;
+        left: 40px;
+        width: 90%;
+        clip-path: polygon(0 0, 90% 0, 90% 100%, 0% 100%);
+    }
+    footer .copy-right span{
+        margin-top: 60px;
+    }
+    
+    
+}
+
+/*==============================Start the screen of mobbile=========================*/
+@media (min-width: 1024px) and (max-width: 768px)
+{
+  
+
+}
+@media(min-width: 426px) and (max-width: 576px)
+{
+    
+   
+}
+@media (min-width: 376px) and (max-width: 425px)
+{
+  
+}
+@media (min-width: 321px) and (max-width: 375px)
+{
+    
+}
+@media (max-width: 320px)
+{
+   
+    
+}
