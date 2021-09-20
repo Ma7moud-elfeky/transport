@@ -700,6 +700,7 @@ a {
 .our-client .icon:hover::after{
   opacity: .5;
 }
+
 .our-client .icon i{
   vertical-align: middle;
 }
